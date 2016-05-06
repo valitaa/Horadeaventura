@@ -1,0 +1,173 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+#container{
+	width: 100%;
+}
+
+.header{
+	position: fixed;
+	width: 100%;
+	background-color: #4c4c6b;
+	top:0;
+	padding: 1%;
+	left: 0;
+	z-index: 20;
+}
+
+.black-bg{
+	background-color: #4c4c6b;
+}
+
+#sidebar{
+	position: fixed;
+	left: 0;
+	top:70px;
+	height:100%; 
+	width:200px;
+	z-index: 20;
+	background-color: #4c4c6b;
+}
+
+.sidebar-toogle-box{
+	display: inline-block;
+	z-index: 10;
+}
+
+
+.sidebar-toggle-box .tooltips{
+	color: whitesmoke;
+	font-size: 22px;
+	display: inline-block;
+}
+
+.logo{
+	color: whitesmoke;
+}
+
+.logo:hover{
+	color: white;
+}
+
+.top-menu{
+	display: inline;
+}
+
+.sidebar-menu {
+	color: whitesmoke;
+	list-style: none;
+	text-align: left;
+	padding-left: 10%
+}
+
+.sub-menu{
+	color: white;
+	padding: 4%;
+
+}
+
+.menu{
+	color: whitesmoke;
+}
+
+#main-content{
+	position: relative;
+	top:130px;
+	margin-left: 210px;
+}
+
+.box0 p{
+	visibility: hidden;
+}
+
+.box0:hover p{
+	visibility: visible;
+	color: orange;
+}
+
+.box0:hover{
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	background-color: white;
+	visibility: visible;
+	border: 1px solid #c0c0c0; 
+}
+
+.box0:hover .box1{
+	border-bottom: none;
+}
+
+.box1{
+	text-align: center;
+	color: gray;
+	font-size: 30px;
+	margin-top: 10%;
+	border-bottom: 1px solid gray;
+	max-width: 100%;
+}
+
+.naranjo{
+	color: #ff8c1c;
+	text-align: center;
+	font-size: 13px;
+}
+
+.active{
+	background-color: #8b46ac;
+	padding: 5%;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.active2{
+	background-color: #8b46ac;
+	padding: 5%;
+	font-size:18px;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.logout{
+	background-color: #8b46ac;
+	padding: 2%;
+	border-radius: 15%;
+	color: whitesmoke;
+}
+
+.page-header{
+	color: #7f7f7f;
+	font-size:18px;
+}
+
+.adventure{
+	color: #7f7f7f;
+	padding: 2%;
+}
+
+.bg-theme {
+	background-color: #2bcce8;
+}
+
+.site-min-height{
+	background-color: #cccccc;
+}
+
+.details{
+	color:  #7f7f7f;
+}
+
+
+
+
+
